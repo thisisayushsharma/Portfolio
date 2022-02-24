@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link rel="icon" href="assets/favicon.png">
+        <title>
+            Ayush
+        </title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+
+    <body class="bg-dark text-light">
+
+        <nav class="navbar navbar-transparent container-fluid">
+            <a class="navbar-brand  text-white " href="index.html">
+                <i class ="bi bi-house">
+                    <b>Ayush Sharma</b>
+                </i>
+            </a>
+            <div>
+                <a class="navbar-brand text-white" href="blog.html">
+                    <i class="bi bi-paperclip"></i> Blog
+                </a>
+                <a class="navbar-brand text-white" href="about.html">
+                    <i class="bi bi-person"></i> About
+                </a>
+                <a class="navbar-brand text-white" href="contact.html">
+                    <i class="bi bi-envelope"></i> Contact
+                </a>
+            </div>        
+        </nav>
+
+        <div class="container">
+            <h1 class="display-1 mt-4">
+                <i class="bi bi-code-slash"></i> Code
+            </h1>
+            <hr>
+            <!-- START: Card Group -->
+            <div class="card-group gap-2">
+                <!-- START: Card 1 -->
+                <div class="card bg-dark text-center">
+                <!-- Card Header -->
+                    <div class="card-header">
+                        <img  class="img-thumbnail img-responsive" src="assets/NLP.png">
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h3 class="card-title"> Text Classification with Bidirectional RNN</h3>
+                        <p class="card-text">
+                            In this I have used IMDB Review Dataset to classify if the review is positive or negative.
+                        </p>
+                    </div>
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <small class="text-muted"> Python, Keras</small>
+                        <button onclick="location.href='https://colab.research.google.com/drive/1nR0GJbDbuBtIUDXknl6SWeCd3jjdihcL?usp=sharing'" class="btn btn-primary float-end"> See Code </button>
+                    </div>
+                </div>
+                <!-- END:Card 1 -->
+                <!-- START:Card 2 -->
+                <div class="card bg-dark text-center">
+                    <!-- Card Header -->
+                        <div class="card-header">
+                            <img  class="img-thumbnail img-responsive" src="assets/hw1.png">
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <h3 class="card-title"> Into The Himalayas </h3>
+                            <p class="card-text">
+                                This is a game I built for my Web Development class.
+                            </p>
+                        </div>
+                        <!-- Card Footer -->
+                        <div class="card-footer">
+                            <small class="text-muted"> HTML, CSS, JS </small>
+                            <button class="btn btn-primary float-end" style="margin:5px;"  onclick="location.href='https://www.github.com/thisisayushsharma/Himalaya'"> See Code </button>
+                            <button class="btn btn-primary float-end" style="margin:5px;" onclick="location.href='https://thisisayushsharma.github.io/Himalaya/'"> Play Game </button>
+
+                        </div>
+                    </div>
+                <!-- END:Card 2 -->
+            </div>
+            <!-- END:Card Group -->
+        </div>
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel="icon" href="assets/favicon.png">
+        <title>
+            Ayush
+        </title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+
+    <body class="bg-dark text-light">
+        <nav class="navbar navbar-transparent container-fluid">
+            <a class="navbar-brand  text-white " href="index.html">
+                <i class ="bi bi-house">
+                    <b>Ayush Sharma</b>
+                </i>
+            </a>
+            <div>
+                <a class="navbar-brand text-white" href="code.html">
+                    <i class="bi bi-code-slash"></i> Code
+                </a>
+                <a class="navbar-brand text-white" href="about.html">
+                    <i class="bi bi-person"></i> About
+                </a>
+                <a class="navbar-brand text-white" href="contact.html">
+                    <i class="bi bi-envelope"></i> Contact
+                </a>
+            </div>        
+        </nav>
+        <div class='container'>
+            <h1 class='display-1 mt-4'>
+                <i class="bi bi-paperclip"></i> Blog
+            </h1>
+            <hr>
+        </div>
+        <div id="blog-carousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel Menu-->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#blog-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#blog-carousel" data-bs-slide-to="1"></li>
+            </ol>
+            <!-- Carousel Body -->
+            <div class="carousel-inner text-center">
+                <!-- Slide 1 -->
+                <div id="slide-1" class="carousel-item active">
+                    <img class="img-fluid" src="assets/dietcoke.jpg">
+                    <div  class="carousel-caption">
+                        <h5> Diet Coke: An Unhealthy Alternative to an Unhealthy Drink  </h5>
+                        <p> In this blog, I talk about how diet coke is not as healthy and diet friendly as it is
+                            advertised to be.
+                        </p>
+                        <button onclick="document.location='articles/diet-coke.pdf'"> Read More </button>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div id="slide-2" class="carousel-item">
+                    <img class="img-fluid" src="assets/nijgadh.jpg">
+                    <div class="carousel-caption">
+                        <h5>Nijgadh International Airport: Why Destruction of Forest is Justified</h5>
+                        <p> In this blog, I talk about the construction of an airport that 
+                            that sparked the debate about environment and development in Nepal.</p>
+                        <button onclick="document.location='articles/nijgadh.pdf'">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#blog-carousel" role="button" data-bs-slide="prev">
+                <i class="carousel-control-prev-icon"></i>
+            </a>
+            <a class="carousel-control-next" href="#blog-carousel" role="button" data-bs-slide="next">
+                <i class="carousel-control-next-icon"></i>
+            </a>
+        </div>
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
