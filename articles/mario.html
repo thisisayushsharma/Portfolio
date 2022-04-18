@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="icon" href="assets/icon.png">
+        <title>
+            Mario
+        </title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles/bootstrap-icons.css">
+    </head>
+    <body class="bg-dark text-light">
+        <div class="container text-white position-relative">
+            <h1 class="display-1 mt-4">
+                Mario-Game
+            </h1>
+            <hr>
+        </div>
+        <div class = "container text-white position-relative">
+            <p>I wrote this game using Phaser js. This framework helps to make browser game by 
+                dealing with all the mathematical component of the game like when collisions occur and how to
+                provide gravity in the game. For example,we can just set the gravity to a value in the config and that sets the gravity to that value
+                for our game.     
+            </p>
+            <p>
+              All the classes in my program extends Phaser.Scene. The preload class loads all the assets of the game in the program.
+              Then it invokes the main class. In that class, I have create and update functions. The create function loads all the
+              required assets needed in the game. It is in update function, where we tell the character to move right if right key is pressed,
+              left if left key is pressed and jump is up arrow is pressed. It is in this function that tells the game to
+              behave certain way when collided with something, or which sound to play if player jumps.
+            </p>
+            <p>
+                There are a lot of pre built phaser functions like .staticGroup that makes the object static which means
+                it will not be affected by gravity or anything and will stay in the same place througout the game. I also used 
+                .setScrollFactor fucntion to create a parralax background. In this game, you will notice that the sky doesnot move,
+                the building move but very slowly and the platforms move faster. All this was done with the help of .setScrollFactor function.
+            </p>
+            <p>
+                Once the game is finised or if you die, I used delayedCall function and restart function to restart the game 
+                not immediately but after sending a message to the player.
+            </p>
+        </div>
+    </body>
